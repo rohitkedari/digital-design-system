@@ -1,0 +1,42 @@
+import { Meta, Typeset, Preview } from '@storybook/addon-docs/blocks';
+
+import { ContextWrapper, Heading } from 'components';
+import { baseTheme } from 'themes/base';
+
+<Meta title="Guides|Typography" />
+
+# Typography
+
+**Font:** Nunito Sans
+
+**Weights:** 400(regular), 600(bold), 800(extrabold)
+
+## Text
+
+<Typeset
+	fontSizes={[
+		parseInt(baseTheme.text.xsmall.size),
+		parseInt(baseTheme.text.small.size),
+		parseInt(baseTheme.text.medium.size),
+		parseInt(baseTheme.text.large.size),
+		parseInt(baseTheme.text.xlarge.size),
+		parseInt(baseTheme.text.xxlarge.size),
+	]}
+	fontWeight={
+		baseTheme.text.font.weight || baseTheme.global.font.weight.regular
+	}
+/>
+
+## Heading
+
+<Preview>
+	<ContextWrapper>
+		<Heading>Default Heading</Heading>
+		<Heading level={1}>Heading H1</Heading>
+		<Heading level={2}>Heading H2</Heading>
+		<Heading level={3}>Heading H3</Heading>
+		<Heading level={4}>Heading H4</Heading>
+		<Heading level={5}>Heading H5</Heading>
+		<Heading level={6}>Heading H6</Heading>
+	</ContextWrapper>
+</Preview>

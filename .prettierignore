@@ -1,0 +1,2 @@
+#ignore generator's template files
+**/*.hbs

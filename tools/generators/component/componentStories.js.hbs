@@ -1,0 +1,18 @@
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import { withTests } from '@storybook/addon-jest';
+import { {{ properCase name }} } from '.';
+import results from './__tests__/{{ properCase name }}-test-results.json';
+
+storiesOf('components|{{ properCase name }}', module)
+	.addDecorator(
+		withTests({
+			results,
+		}),
+	)
+	.addParameters({ component: {{ properCase name }}, jest: ['{{ properCase name }}.test.js'] })
+	.add('Default', () => (
+		<div>
+			<{{ properCase name }} />
+		</div>
+	));

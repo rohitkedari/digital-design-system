@@ -1,0 +1,29 @@
+{
+	"parser": "babel-eslint",
+	"extends": ["airbnb", "prettier", "prettier/react"],
+	"plugins": ["react", "prettier", "jest"],
+	"env": {
+		"es6": true,
+		"node": true,
+		"browser": true,
+		"jest/globals": true
+	},
+	"rules": {
+		"prettier/prettier": ["error"],
+		// Allow windoes based linebreak as airbnb configured it to unix
+		"linebreak-style": ["error", "windows"],
+		"import/prefer-default-export": 0,
+		"react/jsx-filename-extension": 0,
+		"react/jsx-props-no-spreading": 0,
+		"import/no-extraneous-dependencies": 0
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {},
+			"webpack": {
+				"config": "webpack.config.babel.js",
+				"extensions": [".js", ".jsx", ".json"]
+			}
+		}
+	}
+}

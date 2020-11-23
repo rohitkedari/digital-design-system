@@ -1,0 +1,28 @@
+{{! prettier-ignore }}
+import React from 'react';
+{{#if wantPropTypes}}
+import PropTypes from 'prop-types';
+{{/if}}
+
+const {{ properCase name }} = ({{#if wantPropTypes}}{props}{{/if}}) => {
+	return <div {{#if wantPropTypes}}{...props}{{/if}}>Component view</div>;
+};
+
+{{#if wantPropTypes}}
+{{ properCase name }}.defaultProps = {
+	{{#each props}}
+	{{#if this.isRequired}}
+	{{else}}
+	{{this.name}}: {{this.defaultVal}},
+	{{/if}}
+	{{/each}}
+};
+
+{{ properCase name }}.propTypes = {
+	{{#each props}}
+	{{this.name}}: PropTypes.{{this.type}}{{#if this.isRequired}}.isRequired{{/if}},
+	{{/each}}
+};
+{{/if}}
+
+export { {{ properCase name }} };

@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon default renders correctly 1`] = `
+<svg
+  aria-labelledby="svg-inline--fa-title-000000000000"
+  className="svg-inline--fa fa-phone fa-w-16 sc-AxjAm jLWHxH"
+  data-icon="phone"
+  data-prefix="fas"
+  role="img"
+  style={Object {}}
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title
+    id="svg-inline--fa-title-000000000000"
+    style={Object {}}
+  >
+    phone icon
+  </title>
+  <path
+    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+    fill="currentColor"
+    style={Object {}}
+  />
+</svg>
+`;
+
+exports[`Icon with border renders correctly 1`] = `
+<svg
+  aria-labelledby="svg-inline--fa-title-000000000000"
+  className="svg-inline--fa fa-phone fa-w-16 fa-border fa-4x sc-AxjAm jLWHxH"
+  data-icon="phone"
+  data-prefix="fas"
+  role="img"
+  style={Object {}}
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title
+    id="svg-inline--fa-title-000000000000"
+    style={Object {}}
+  >
+    phone with border
+  </title>
+  <path
+    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+    fill="currentColor"
+    style={Object {}}
+  />
+</svg>
+`;
+
+exports[`Icon with color renders correctly 1`] = `
+Array [
+  <svg
+    aria-labelledby="svg-inline--fa-title-000000000000"
+    className="svg-inline--fa fa-phone fa-w-16 sc-AxjAm gUTuSI"
+    color="red"
+    data-icon="phone"
+    data-prefix="fas"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title
+      id="svg-inline--fa-title-000000000000"
+      style={Object {}}
+    >
+      red phone icon
+    </title>
+    <path
+      d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>,
+  <svg
+    aria-labelledby="svg-inline--fa-title-000000000000"
+    className="svg-inline--fa fa-phone fa-w-16 sc-AxjAm eBJTpR"
+    color="brand"
+    data-icon="phone"
+    data-prefix="fas"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title
+      id="svg-inline--fa-title-000000000000"
+      style={Object {}}
+    >
+      brand phone icon
+    </title>
+    <path
+      d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>,
+  <svg
+    aria-labelledby="svg-inline--fa-title-000000000000"
+    className="svg-inline--fa fa-phone fa-w-16 sc-AxjAm laZens"
+    color="#66BF3C"
+    data-icon="phone"
+    data-prefix="fas"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title
+      id="svg-inline--fa-title-000000000000"
+      style={Object {}}
+    >
+      green phone icon
+    </title>
+    <path
+      d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>,
+]
+`;
+
+exports[`Icon with size renders correctly 1`] = `
+Array [
+  <svg
+    aria-labelledby="svg-inline--fa-title-000000000000"
+    className="svg-inline--fa fa-phone fa-w-16 fa-xs sc-AxjAm jLWHxH"
+    data-icon="phone"
+    data-prefix="fas"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title
+      id="svg-inline--fa-title-000000000000"
+      style={Object {}}
+    >
+      phone icon
+    </title>
+    <path
+      d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>,
+  <svg
+    aria-labelledby="svg-inline--fa-title-000000000000"
+    className="svg-inline--fa fa-phone fa-w-16 fa-sm sc-AxjAm jLWHxH"
+    data-icon="phone"
+    data-prefix="fas"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title
+      id="svg-inline--fa-title-000000000000"
+      style={Object {}}
+    >
+      phone icon
+    </title>
+    <path
+      d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>,
+  <svg
+    aria-labelledby="svg-inline--fa-title-000000000000"
+    className="svg-inline--fa fa-phone fa-w-16 fa-lg sc-AxjAm jLWHxH"
+    data-icon="phone"
+    data-prefix="fas"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title
+      id="svg-inline--fa-title-000000000000"
+      style={Object {}}
+    >
+      phone icon
+    </title>
+    <path
+      d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>,
+]
+`;
+
+exports[`Icon with spin renders correctly 1`] = `
+<svg
+  aria-labelledby="svg-inline--fa-title-000000000000"
+  className="svg-inline--fa fa-spinner fa-w-16 fa-spin sc-AxjAm jLWHxH"
+  data-icon="spinner"
+  data-prefix="fas"
+  role="img"
+  style={Object {}}
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title
+    id="svg-inline--fa-title-000000000000"
+    style={Object {}}
+  >
+    loading
+  </title>
+  <path
+    d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
+    fill="currentColor"
+    style={Object {}}
+  />
+</svg>
+`;

@@ -1,0 +1,36 @@
+<Meta title="Guides|Colors" />
+
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+
+import colors from 'themes/colors';
+
+# Colors
+
+## Brand Colors
+<ColorPalette>
+  <ColorItem title="Brand" subtitle="Primary" colors={[colors.brand]} />
+  <ColorItem title="Brand Dim" subtitle="CTA hover" colors={[colors.brandDim]} />
+</ColorPalette>
+
+## Status Colors
+<ColorPalette>
+  <ColorItem title="Critical" colors={[colors.status_critical]} />
+  <ColorItem title="Error" colors={[colors.status_error]} />
+  <ColorItem title="Warning" colors={[colors.status_warning]} />
+  <ColorItem title="OK" colors={[colors.status_ok]} />
+  <ColorItem title="Unknown" colors={[colors.status_unknown]} />
+  <ColorItem title="Disabled" colors={[colors.status_disabled]} />
+</ColorPalette>
+
+## Text Colors
+<ColorPalette>
+  <ColorItem title="Primary" colors={[colors.text_primary]} />
+  <ColorItem title="Secondary" colors={[colors.text_secondary]} />
+</ColorPalette>
+
+## Background Colors
+<ColorPalette>
+  <ColorItem title="Black" colors={[colors.bg_black]} />
+  <ColorItem title="Grey" colors={[colors.bg_grey]} />
+  <ColorItem title="White" colors={[colors.bg_white]} />
+</ColorPalette>

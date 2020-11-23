@@ -1,0 +1,10 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+./tests/jest-test-results.json
+
+# production
+dist
+storybook-static

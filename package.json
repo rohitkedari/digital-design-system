@@ -1,0 +1,123 @@
+{
+	"name": "digital-design-system",
+	"version": "1.0.0",
+	"description": "Design system for digital projects",
+	"main": "index.js",
+	"author": "Rohit Kedari",
+	"license": "ISC",
+	"scripts": {
+		"storybook": "start-storybook -p 9001 -s ./static",
+		"prettier": "pretty-quick --staged",
+		"lint": "eslint src",
+		"lint:fix": "eslint src --fix",
+		"jest": "jest",
+		"test-all:update": "jest --updateSnapshot",
+		"test-all:generate-output": "jest --json --outputFile=./tests/jest-test-results.json",
+		"test": "babel-node ./tools/test-component",
+		"test:update": "babel-node ./tools/test-component --updateSnapshot",
+		"generate": "plop --plopfile ./tools/generators/index.js",
+		"generate:component": "plop --plopfile ./tools/generators/index.js component"
+	},
+	"peerDependencies": {
+		"react": ">= 16.6.1",
+		"react-dom": ">= 16.6.1",
+		"styled-components": ">= 5.X"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.4",
+		"@babel/node": "^7.10.5",
+		"@babel/preset-env": "^7.11.0",
+		"@babel/preset-react": "^7.10.4",
+		"@storybook/addon-a11y": "^5.3.19",
+		"@storybook/addon-actions": "^5.3.19",
+		"@storybook/addon-docs": "^5.3.19",
+		"@storybook/addon-jest": "^5.3.19",
+		"@storybook/addon-knobs": "^5.3.19",
+		"@storybook/addon-storyshots": "^5.3.19",
+		"@storybook/addons": "^5.3.19",
+		"@storybook/react": "^5.3.19",
+		"babel-core": "^6.26.3",
+		"babel-eslint": "^10.1.0",
+		"babel-jest": "24.1.0",
+		"babel-loader": "^8.1.0",
+		"babel-plugin-require-context-hook": "^1.0.0",
+		"babel-plugin-styled-components": "^1.11.1",
+		"clean-webpack-plugin": "^3.0.0",
+		"eslint": "^7.7.0",
+		"eslint-config-airbnb": "^18.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-import-resolver-webpack": "^0.12.2",
+		"eslint-loader": "^4.0.2",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-jest": "^23.20.0",
+		"eslint-plugin-jsx-a11y": "^6.3.1",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-react": "^7.20.6",
+		"husky": "^4.2.5",
+		"inquirer": "^7.3.3",
+		"jest": "24.1.0",
+		"lint-staged": "^10.2.11",
+		"lodash": "^4.17.19",
+		"npm": "^6.14.7",
+		"plop": "^2.7.4",
+		"pre-commit": "^1.2.2",
+		"prettier": "^2.0.5",
+		"pretty-quick": "^2.0.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-test-renderer": "^16.13.1",
+		"storybook-readme": "^5.0.8",
+		"styled-components": "^5.1.1",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.29",
+		"@fortawesome/free-brands-svg-icons": "^5.13.1",
+		"@fortawesome/free-regular-svg-icons": "^5.13.1",
+		"@fortawesome/free-solid-svg-icons": "^5.13.1",
+		"@fortawesome/react-fontawesome": "^0.1.11",
+		"prop-types": "^15.7.2"
+	},
+	"jest": {
+		"moduleNameMapper": {
+			"\\.(mdx|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/tests/__mocks__/fileMock.js",
+			"^components(.*)$": "<rootDir>/src/components$1",
+			"^themes(.*)$": "<rootDir>/src/themes$1",
+			"^utils(?!-merge)(.*)$": "<rootDir>/src/utils$1",
+			"^tests(.*)$": "<rootDir>/tests$1",
+			"^contexts(.*)$": "<rootDir>/src/contexts$1",
+			"react-syntax-highlighter/dist/esm/(.*)": "react-syntax-highlighter/dist/cjs/$1"
+		},
+		"setupFiles": [
+			"<rootDir>/.jest/register-context.js"
+		],
+		"collectCoverage": true,
+		"coverageReporters": [
+			"lcov"
+		],
+		"collectCoverageFrom": [
+			"src/components/**/*.{js}",
+			"src/contexts/**/*.{js}",
+			"src/themes/**/*.{js}",
+			"src/utils/**/*.{js}",
+			"!src/components/**/*.{stories.js}",
+			"!src/components/**/stories/*.js"
+		]
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"./src/**/*.{js,json}": [
+			"prettier --write",
+			"git add"
+		],
+		"./src/**/*.js": [
+			"eslint --fix",
+			"jest --bail --findRelatedTests"
+		]
+	}
+}

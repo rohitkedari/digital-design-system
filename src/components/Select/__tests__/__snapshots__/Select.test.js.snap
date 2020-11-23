@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Select default renders correctly 1`] = `
+<div>
+  <select
+    aria-label="select"
+    className="sc-AxjAm ibyUnj"
+    title="select"
+  >
+    <option
+      className="sc-AxirZ jBEoIm"
+    >
+      select
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Select with default renders correctly 1`] = `
+<div>
+  <select
+    aria-label="select"
+    className="sc-AxjAm ibyUnj"
+    title="select"
+  >
+    <option
+      className="sc-AxirZ jBEoIm"
+    >
+      select
+    </option>
+  </select>
+</div>
+`;
